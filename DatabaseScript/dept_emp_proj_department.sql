@@ -30,7 +30,7 @@ CREATE TABLE `department` (
   `statusId` int(11) DEFAULT NULL,
   `contact` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`dept_id`),
-  KEY `status_fk_idx` (`status`),
+  KEY `status_fk_idx` (`statusId`),
   CONSTRAINT `status_fk` FOREIGN KEY (`statusId`) REFERENCES `code` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION
 ) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
