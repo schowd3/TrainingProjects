@@ -6,6 +6,7 @@
 
     <groupId>com.antra.sep</groupId>
     <artifactId>TrainingProjects</artifactId>
+    <packaging>pom</packaging>
     <version>0.1</version>
 
 
@@ -13,6 +14,7 @@
     <module>ServletJSP</module>
     <module>JDBC</module>
     <module>Spring JPA</module>
+    <module>SpringIOCDemo</module>
 
 </modules>
 </project>
