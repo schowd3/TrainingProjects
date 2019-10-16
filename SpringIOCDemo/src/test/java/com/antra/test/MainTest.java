@@ -1,6 +1,6 @@
 package com.antra.test;
 
-import com.antra.MyConfig;
+import com.antra.config.MyConfig;
 import com.antra.service.MyService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -13,6 +13,7 @@ public class MainTest {
 		System.out.println(price);
 	}
 }
+//Injection Types
 //@Scope
 //@Qualifier
 //@Primary

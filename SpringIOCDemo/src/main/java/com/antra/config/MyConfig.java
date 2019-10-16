@@ -1,4 +1,4 @@
-package com.antra;
+package com.antra.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
